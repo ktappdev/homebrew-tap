@@ -1,16 +1,16 @@
 cask "ssh-thing" do
-  version "1.1.27"
+  version "1.1.28"
   name "SSH Thing"
   desc "SSH client"
   homepage "https://github.com/ktappdev/ssh-thing"
 
   on_arm do
     url "https://github.com/ktappdev/ssh-thing/releases/download/v#{version}/SSH.THING_#{version}_aarch64.dmg"
-    sha256 "b7fb5005a8599a69e0f6c5df4a78674b6b38c8b54e099f9202b22b0834e81f11"
+    sha256 "578ce2119fd88d5e7b1ce06d583227fb081d44c13a7ec578628cbe7fa935b66f"
   end
   on_intel do
     url "https://github.com/ktappdev/ssh-thing/releases/download/v#{version}/SSH.THING_#{version}_x64.dmg"
-    sha256 "c847901035b9004ff0e617c9454c33966d093bc01a463fc87974a19573fef06f"
+    sha256 "a3326c48c29efcffb8225f374e0629a78eaa9980cff29ef39e46a354409af0a3"
   end
 
   app "SSH THING.app"
